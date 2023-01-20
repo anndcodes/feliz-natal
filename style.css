@@ -1,0 +1,143 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* colors */
+:root {
+  --red: #DA2535;
+  --pink: #F7C7B9;
+  --white: #F9F9F9;
+  --gray: #8D8D8D;
+  --gray-200: #404040;
+  --black-light: #161212;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+body {
+  min-height: 100vh;
+  font: 1.6rem 'Poppins', sans-serif;
+  color: var(--gray-200);
+}
+
+/* header */
+header {
+  background-color: var(--pink);
+  padding: 2rem 20.4rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: 2.4rem;
+  color: var(--black-light);
+  font-weight: 500;
+}
+
+ul {
+  display: flex;
+  gap: 5.1rem;
+  list-style: none;
+}
+
+.links a {
+  color: var(--black-light);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 13rem 14rem;
+}
+
+.hero-left {
+  max-width: 44ch;
+  font-weight: 500;
+  line-height: 2.4rem;
+}
+
+.hero-right {
+  /* flex-grow: 1; */
+}
+
+.title {
+  color: var(--black-light);
+  font-size: 4.8rem;
+  font-weight: 600;
+  max-width: 25ch;
+  line-height: 5.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.hero button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem 3.2rem;
+  background: var(--red);
+  color: var(--white);
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font: 600 1.6rem 'Poppins', sans-serif;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+
+/* CARD SECTION */
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 48px 0 82px;
+  
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 16rem;
+}
+
+.card {
+  text-align: center;
+}
+
+.cards-container .txt {
+  max-width: 48ch;
+  color: var(--gray-200);
+  margin-bottom: 3.2rem;
+}
+
+.card p {
+  max-width: 20ch;
+  color: var(--gray);
+  margin-top: 1.2rem;
+}
+
+.card h4 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: var(--black-light);
+}
