@@ -19,8 +19,7 @@ html {
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
-}
+ }
 
 body {
   min-height: 100vh;
@@ -68,14 +67,10 @@ ul {
   margin-block: 13rem 14rem;
 }
 
-.hero-left {
-  max-width: 44ch;
+.txt {
   font-weight: 500;
   line-height: 2.4rem;
-}
-
-.hero-right {
-  /* flex-grow: 1; */
+  max-width: 44ch;
 }
 
 .title {
@@ -87,7 +82,7 @@ ul {
   margin-bottom: 2.4rem;
 }
 
-.hero button {
+.btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,7 +106,6 @@ ul {
   align-items: center;
   text-align: center;
   margin: 48px 0 82px;
-  
 }
 
 .cards {
@@ -125,8 +119,8 @@ ul {
 }
 
 .cards-container .txt {
+  font-weight: 400;
   max-width: 48ch;
-  color: var(--gray-200);
   margin-bottom: 3.2rem;
 }
 
@@ -141,3 +135,30 @@ ul {
   font-weight: 500;
   color: var(--black-light);
 }
+
+
+/* CTA SECTION */
+
+.cta {
+  background-color: var(--pink);
+  padding: 2rem 30rem;
+}
+
+.cta-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 13rem 14rem;
+}
+
+.cta-left .title {
+  max-width: 13ch;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5.6rem 20rem 4.5rem 20rem;
+}
+
